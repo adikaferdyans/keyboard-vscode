@@ -1,0 +1,140 @@
+
+[
+    {
+        "key": "alt+k",
+        "command": "cursorUp",
+        "when": "textInputFocus"
+    },
+ 
+    {
+        "key": "alt+j",
+        "command": "cursorDown",
+        "when": "textInputFocus"
+    },
+
+    {
+        "key": "alt+h",
+        "command": "cursorLeft",
+        "when": "textInputFocus"
+    },
+
+    {
+        "key": "alt+l",
+        "command": "cursorRight",
+        "when": "textInputFocus"
+    },
+
+    {
+        "key": "alt+i",
+        "command": "cursorWordLeft",
+        "when": "textInputFocus"
+    },
+  
+    {
+        "key": "alt+o",
+        "command": "cursorWordEndRight",
+        "when": "textInputFocus"
+    },
+
+    {
+        "key": "alt+d",
+        "command": "editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+n",
+        "command": "cursorTop",
+        "when": "textInputFocus"
+    },
+
+    {
+        "key": "alt+m",
+        "command": "cursorBottom",
+        "when": "textInputFocus"
+    },
+
+    {
+        "key": "alt+down",
+        "command": "editor.action.moveLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+
+    {
+      "key": "alt+up",
+      "command": "editor.action.moveLinesUpAction",
+        "when": "editorTextFocus && !editorRead only"
+    },
+    
+        {
+            "key": "alt+shift+j",
+            "command": "cursorLeftSelect",
+            "when": "textInputFocus"
+          },
+
+          {
+            "key": "alt+shift+j",
+            "command": "cursorPageDownSelect",
+               "when": "textInputFocus"
+          },
+          {
+            "key": "alt+shift+k",
+            "command": "cursorPageUpSelect",
+            "when": "textInputFocus"
+          },
+          {
+            "key": "alt+shift+l",
+            "command": "cursorRightSelect",
+            "when": "textInputFocus"
+          },
+          {
+            "key": "alt+f",
+            "command": "expandLineSelection",
+            "when": "textInputFocus"            
+          },
+          {
+            "key": "alt+backspace",
+            "command": "deleteLeft",
+            "when": "textInputFocus"
+          },
+          {
+            "key": "alt+a",
+            "command": "editor.action.insertLineBefore",
+            "when": "editorTextFocus && !editorReadonly"
+          },    
+          {
+            "key": "alt+s",
+            "command": "editor.action.insertLineAfter",
+            "when": "editorTextFocus && !editorReadonly"
+          },
+          {
+            "key": "alt+e",
+            "command": "editor.action.deleteLines",
+            "when": "textInputFocus && !editorReadonly"
+          },
+          {
+            "key": "alt+w",
+            "command": "extension.liveServer.goOnline",
+            "when": "editorTextFocus"
+          },
+          {
+            "key": "alt+q",
+            "command": "extension.liveServer.goOffline",
+            "when": "editorTextFocus"
+          },
+
+          {
+            "key": "alt+v",
+            "command": "editor.action.copyLinesDownAction",
+            "when": "editorTextFocus && !editorReadonly"
+          },
+ 
+          {
+            "key": "alt+z",
+            "command": "undo"
+          }
+]
